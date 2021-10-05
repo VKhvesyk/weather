@@ -116,7 +116,11 @@ function collectData(cityName) {
         })
         .then(() => {
             console.log(photo);
-            visualBlock.style.cssText = `background: no-repeat center / cover url(${photo.results[randomInteger(0, 9)].urls.regular})`;
+            if (document.documentElement.clientWidth < 768) {
+                weatherIcon.style.cssText = `background: no-repeat center / cover url(${photo.results[randomInteger(0, 9)].urls.regular})`;
+            } else {
+                visualBlock.style.cssText = `background: no-repeat center / cover url(${photo.results[randomInteger(0, 9)].urls.regular})`;
+            }
         })
         .catch(() => {
             console.log('Сталась помилка. Наші котики вже працюють над цим');

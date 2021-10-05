@@ -4,14 +4,13 @@
     margin: 10px 0px;
 }
 .main {
-    padding-top: 50px;
-    height: 100vh;
+    padding: 50px 0px;
     &-wrapper {
         width: 1000px;
         margin: 0 auto;
         display: grid;
         justify-content: center;
-        grid-template-columns: 400px 600px;
+        grid-template-columns: 40% 60%;
         grid-template-rows: 600px;
         background-color: rgb(243, 242, 242);
         border-radius: 10px;
@@ -73,7 +72,7 @@
         }
         &__basic__info {
             display: grid;
-            grid-template-columns: 400px 200px;
+            grid-template-columns: 60% 40%;
             grid-template-rows: repeat(2, 40px);
             background-color: rgba(243, 242, 242, 0.699);
             border-radius: 10px 10px 10px 0px;

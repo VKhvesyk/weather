@@ -1,0 +1,100 @@
+@media (max-width: 1200px) {
+    .container {
+        width: 950px;
+    }
+    .main {
+        &-wrapper {
+            width: 900px;
+        }
+    }
+}
+ 
+@media (max-width: 992px) {
+    .container {
+        width: 750px;
+    }
+    .main {
+        &-wrapper {
+            width: 700px;
+            &__city__name {
+                width: 350px;
+                p {
+                    font-style: 50px;
+                }
+            }
+            &__current__temp {
+                p {
+                    font-size: 70px;
+                }
+            }
+        }
+    }
+}
+ 
+@media (max-width: 768px) {
+    .container {
+        width: 550px;
+    }
+    .main {
+        &-wrapper {
+            width: 500px;
+            grid-template-columns: 85%;
+            &__weather__visual {
+                display: none;
+            }
+            &__weather__icon {
+                justify-content: flex-end;
+                max-height: unset;
+                height: 170px;
+                padding-left: 0px;
+                img {
+                    display: none;
+                }
+                p {
+                    background-color: #f3f2f2;
+                    border-radius: 8px 8px 0px 0px;
+                    margin: 0px;
+                }
+            }
+        }
+    }
+}
+ 
+@media (max-width: 576px) {
+    .container {
+        width: 420px;
+    }
+    .main {
+        &-wrapper {
+            width: 400px;
+            grid-template-columns: 95%;
+        }
+    }
+}
+
+@media (max-width: 426px) {
+    .container {
+        width: 370px;
+    }
+    .main {
+        &-wrapper {
+            width: 350px;
+            grid-template-columns: 100%;
+        }
+    }
+}
+
+@media (max-width: 376px) {
+    .container {
+        width: 310px;
+    }
+    .main {
+        &-wrapper {
+            width: 300px;
+            grid-template-columns: 100%;
+            &__weather__icon {
+                height: 155px;
+            }
+        }
+    }
+}

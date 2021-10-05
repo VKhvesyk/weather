@@ -16,10 +16,11 @@
 }
 body {
     background: no-repeat center / cover url(../img/background/clear_sky.jpg);
-    height: 100vh;
     backdrop-filter: blur(10px);
 }
 .container {
     width: 1200px;
     margin: 0 auto;
 }
+
+@import 'blocks/media';
