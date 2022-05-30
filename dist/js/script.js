@@ -7,9 +7,9 @@ const btn = document.querySelector('#btn'),
       cityName = document.querySelector('#cityName'),
       currentTime = document.querySelector('#currentTime'),
       currentDate = document.querySelector('#currentDate'),
-      weatherIcon = document.querySelector('.main-wrapper__weather__icon'),
-      weatherIndexes = document.querySelector('.main-wrapper__weather__indexes'),
-      visualBlock = document.querySelector('.main-wrapper__weather__visual');
+      weatherIcon = document.querySelector('.main-wrapper__weather-icon'),
+      weatherIndexes = document.querySelector('.main-wrapper__weather-indexes'),
+      visualBlock = document.querySelector('.main-wrapper__weather-visual');
 
 let data,
     photo;

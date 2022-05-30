@@ -18,14 +18,14 @@
         &__input {
             position: relative;
         }
-        &__weather__info {
+        &__weather-info {
             padding: 20px;
             display: flex;
             flex-direction: column;
             justify-content: space-around;
             align-items: stretch;
         }
-        &__weather__icon {
+        &__weather-icon {
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -46,7 +46,7 @@
                 color: rgb(107, 107, 107);
             }
         }
-        &__weather__indexes {
+        &__weather-indexes {
             display: flex;
             flex-direction: column;
             p {
@@ -64,13 +64,13 @@
                 background-color: lightblue;
             }
         }
-        &__weather__visual {
+        &__weather-visual {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
             border-radius: 0px 10px 10px 0px;
         }
-        &__basic__info {
+        &__basic-info {
             display: grid;
             grid-template-columns: 60% 40%;
             grid-template-rows: repeat(2, 40px);
@@ -78,7 +78,7 @@
             border-radius: 10px 10px 10px 0px;
         }
         &__current {
-            &__temp {
+            &-temp {
             grid-column-start: 2;
             grid-column-end: 3;
             grid-row-start: 1;
@@ -90,14 +90,14 @@
                     line-height: 84px;
                 }
             }
-            &__data {
+            &-data {
                 p {
                     margin-left: 20px;
                     font-size: 22px;
                     font-weight: 300;
                 }
             }
-            &__time {
+            &-time {
                 p {
                     margin-left: 20px;
                     font-size: 22px;
@@ -105,7 +105,7 @@
                 }
             }
         }
-        &__city__name {
+        &__city-name {
             width: 420px;
             background-color: rgba(243, 242, 242, 0.699);
             border-radius: 0px 10px 10px 0px;

@@ -16,13 +16,13 @@
     .main {
         &-wrapper {
             width: 700px;
-            &__city__name {
+            &__city-name {
                 width: 350px;
                 p {
                     font-style: 50px;
                 }
             }
-            &__current__temp {
+            &__current-temp {
                 p {
                     font-size: 70px;
                 }
@@ -39,10 +39,10 @@
         &-wrapper {
             width: 500px;
             grid-template-columns: 85%;
-            &__weather__visual {
+            &__weather-visual {
                 display: none;
             }
-            &__weather__icon {
+            &__weather-icon {
                 justify-content: flex-end;
                 max-height: unset;
                 height: 170px;
@@ -92,7 +92,7 @@
         &-wrapper {
             width: 300px;
             grid-template-columns: 100%;
-            &__weather__icon {
+            &__weather-icon {
                 height: 155px;
             }
         }
